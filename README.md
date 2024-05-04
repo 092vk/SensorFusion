@@ -30,6 +30,16 @@ This project demonstrates how to collect sensor data from a mobile device (such 
 
 The sensor fusion algorithm successfully combines data from different sensors to estimate the orientation of the mobile device. Visualization graphs comparing MATLAB estimation with actual device data are provided in the `Figures` directory.
 
+
+![Acceleration](./Figures/AccelerationData.png)
+![](./Figures/AngularVelocityData.png)
+![](./Figures/MagneticFieldData.png)
+![](./Figures/OrientationData.png)
+![](./Figures/Pitch.png)
+![](./Figures/Roll.png)
+![](./Figures/Yaw.png)
+
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
