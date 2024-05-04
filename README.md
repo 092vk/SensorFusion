@@ -30,13 +30,29 @@ This project demonstrates how to collect sensor data from a mobile device (such 
 
 The sensor fusion algorithm successfully combines data from different sensors to estimate the orientation of the mobile device. Visualization graphs comparing MATLAB estimation with actual device data are provided in the `Figures` directory.
 
+## Various Sensor Data:
 
+### Acceleration Data :
 ![Acceleration](./Figures/AccelerationData.png)
+
+### AngularvelocityData(GyroScopeData) :
 ![](./Figures/AngularVelocityData.png)
+
+### MagneticFieldData :
 ![](./Figures/MagneticFieldData.png)
+
+### Orientatation Data From the mobile sensors:
 ![](./Figures/OrientationData.png)
+
+## Estimated Orientation Data using Sensor Fusion:
+
+### Pitch:
 ![](./Figures/Pitch.png)
+
+### Roll:
 ![](./Figures/Roll.png)
+
+### Yaw:
 ![](./Figures/Yaw.png)
 
 
