@@ -9,7 +9,7 @@ mob.Logging=1
 
 pause(10);
 
-% stoping collecting data 
+% stop collecting data 
 mob.Logging =0;
 
 %logging the data 
@@ -65,7 +65,8 @@ t = ta(1:tfin);
 
 
 %estimation algo which combines data from different sensors to estimate the
-%result 
+%result , we are using ahrs filter (Attitude and Heading Reference System)
+
 aFilter = ahrsfilter('SampleRate',mob.SampleRate);
 
 
@@ -79,7 +80,7 @@ aFilter.MagneticDisturbanceDecayFactor = 0.5;
 
 
 
-%aliging the sensor data 
+%aliging the sensor data , according to toolbox documentation
 w(:,1) = -w(:,1);
 w(:,3) = -w(:,3);
 a(:,2) = -a(:,2);
@@ -107,11 +108,12 @@ for i=1:length(t)
 end
 
 
-% Release the system object aFilter 
+% Release the system object aFilter so that it frees up the space 
 release(aFilter)
 
 
-%Visualisation
+%Visualisation-
+
 figure(5);
 plot(t,eulFilt(:,3)*180/pi,t,oin((1:tfin),3));
 xlabel('Time [s]');
