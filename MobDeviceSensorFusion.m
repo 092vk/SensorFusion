@@ -2,6 +2,7 @@ close all;
 clear;
 clc;
 
+%connecting mobile device to get sensor data to the matlab application , you need matlab mobile to use this 
 
 mob = mobiledev
 mob.SampleRate = 100;
