@@ -17,7 +17,7 @@ This project demonstrates how to collect sensor data from a mobile device (such 
 
 ## Files
 
-- `sensor_fusion.m`: MATLAB script for collecting sensor data and performing sensor fusion.
+- `mobileDeviceSensorFusion.m`: MATLAB script for collecting sensor data and performing sensor fusion.
 - `README.md`: This file providing an overview of the project.
 - Other MATLAB functions and scripts used in the project.
 
