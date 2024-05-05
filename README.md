@@ -11,13 +11,13 @@ This project demonstrates how to collect sensor data from a mobile device (such 
 ## Usage
 
 1. Connect your mobile device to MATLAB or use MATLAB Mobile for remote data logging.
-2. Run the provided MATLAB script `mobDeviceSensorFusion.m`.
+2. Run the provided MATLAB script `MobDeviceSensorFusion.m`.
 3. Follow the on-screen instructions to start logging sensor data from your mobile device.
 4. Once data collection is complete, the script will automatically process and visualize the sensor fusion results.
 
 ## Files
 
-- `mobDeviceSensorFusion.m`: MATLAB script for collecting sensor data and performing sensor fusion.
+- `MobDeviceSensorFusion.m`: MATLAB script for collecting sensor data and performing sensor fusion.
 - `README.md`: This file providing an overview of the project.
 - Other MATLAB functions and scripts used in the project.
 
